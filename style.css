@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{margin: 0px; padding: 0px;}
+body{
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.02rem;
+}
+#headersection{
+
+}
+
+.topbar {
+    background: #F5F5F5;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+    
+}
+
+.topbarwrapper {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+.phone {
+	border-left: 1px solid #ddd;
+    width: 210px;
+    float: left;
+    padding: 15px;
+}
+.phone i {
+	color: #ff6c00;
+	margin: 0px 8px;
+	}
+	
+.email {
+    width: 650px;
+    float: left;
+    padding: 16px;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+.email i {
+	color: #ff6c00;
+	}
+.social {
+    float: right;
+}
+.social  a {
+    color: #2f2e2e;
+    text-decoration: none;
+    font-size: 16px;
+}
+.social  a i {
+	padding: 15px;
+	border-right: 1px solid #ddd;
+}
+.social  a i:hover{
+	color: #fb5200;
+}
+.praimarymenuwrapper {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+	margin-top: 30px;
+    width: 150px;
+    float: left;
+}
+.menu{
+	float: right;
+	margin-top: 29px;
+}
+
+ul.mainmenu li {
+	float: left;
+	list-style: none;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size:16px;
+	font-weight: 700;
+}
+ul.mainmenu li a {
+	
+	text-decoration: none;
+	color: #383838
+	
+}
+#homeslider{
+	background: url(image/slide-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+}
+.slidercontent{
+	margin-top: 50px;
+	color: white;
+	padding: 185px 0px;
+}
+.slidercontent h1{
+	
+ width: 430px;	
+ font-size: 50px;	
+ font-weight: 500;
+ 
+
+}
+.slidercontent p{
+	font-size: 18px;
+    line-height: 1.5;
+    width: 470px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 10px 0px;
+	font-weight: 600;
+}
+button#workbtn {
+    font-size: 17px;
+    padding: 15px 40px;
+    border-radius: 3.5px;
+    background: #FF5200;
+    cursor: pointer;
+    border: none;
+}
+button#workbtn a{
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+button#workbtn:hover{
+	
+	background: #252525;
+}
+#servicecarddesign{
+	background: #F5F6F6;
+	height: 510px;
+}
+
+.servicecardwrapper {
+    overflow: hidden;
+    
+    width: 100%;
+    
+}
+#firstcard2{
+	background: #FF5200;
+}
+#firstcard2 .icon{
+	color: white;
+}
+#firstcard2 .servicetitle h2 {
+	color: white;
+	
+}
+#firstcard2 .servicedesc{
+	
+	color: white;
+}
+#firstcard2 .servicelink{
+	
+	color: white;
+}
+
+.firstcard {
+    width: 250px;
+    background: white;
+    padding: 0px 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 335px;
+    float:left;
+    margin-right: 20px;
+	transition: 0.6s;
+}
+.firstcard:hover{
+	background: #FF5200;
+}
+.firstcard:hover .icon {
+	color: white;
+}
+.firstcard:hover .servicetitle h2 {
+	color: white;
+}
+.firstcard:hover .servicedesc {
+	color: white;
+}
+.firstcard:hover .servicelink {
+	color: white;
+}
+.icon {
+    font-size: 35px;
+    text-align: center;
+    color: #FF5200;
+    padding: 28px;
+}
+.servicetitle {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.servicetitle h2{
+	color:black;
+	font-weight: 500;
+
+}
+.servicedesc {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+	color: #615151;
+}
+
+.servicelink {
+	text-align: center;
+	color: #FF5200;
+	font-weight: 600;
+	
+}
+.servicelink:hover{
+	cursor: pointer;
+}
+.servicelink i.fas.fa-long-arrow-alt-right {
+	margin-left: 8px;
+    padding: 2px;
+	
+}
+#ourteam{
+	
+	margin-top: 80px;
+	height: 310px;
+}
+.ourteamwrapper {
+    display: block;
+    overflow: hidden;
+}
+
+.teaimage {
+    width: 480px;
+	float: left;
+    margin-right: 50px;
+}
+
+.teaimage img {
+    width: 100%;
+}
+.teamtitle {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.teamtitle h2{
+    
+    font-weight: 500;
+	
+}
+.teamdescription {
+    color: #313131;
+    line-height: 25px;
+}
+.servicefacilities {
+    margin-top: 20px;
+}
+
+.leftpart {
+    float: left;
+    width: 260px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.leftpart ul {
+   
+    list-style: none;
+}
+.rightpart{
+	line-height: 38px;
+    font-weight: 500;
+}
+.rightpart ul {
+   
+    list-style: none;
+}
+i.fas.fa-hand-point-right {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#servicefacilitiesbutton{
+	
+	padding: 15px;	
+	font-size: 20px;
+}
+#servicefacilitiesbutton a{
+	
+	background: #FF5200;	
+	text-decoration: none;	
+	padding: 10px  25px;	
+	color: white;	
+	font-weight: 500;
+	border-radius: 3px;
+}
+.whychoosuswrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+section#whychoosus {
+    background:linear-gradient(#0000008c,#0000008c),url(image/why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 315px;
+	color: white;
+	margin-top: 85px;
+}
+.singlebox{
+	width: 250px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+}
+i.fas.fa-user-secret {
+    font-size: 60px;
+    margin-top: 17px 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.designforh2 {
+	
+	font-size: 35px;
+	
+}
+.designfordesc h2{
+	    font-weight: 500;
+	    font-size: 20px;
+}
+#aboutofproejct{
+	background: #F5F6F6;
+    height: 620px;
+}
+
+.projectdescription {
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+.projectdescription h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.projectdescription p {
+    font-size: 16px;
+    width: 499px;
+    margin: auto;
+    line-height: 20px;
+}
+.proejctwrapper{
+	overflow: hidden;
+	
+}
+.singleaboutofproejctbox{
+	
+	width: 240px;
+	margin-right: 30px;
+	float: left;
+}
+
+.aboutimg img{
+	
+	width: 100%;
+}
+
+.aboutimgdesc h3{
+	
+	margin-top: 15px;
+	
+	margin-bottom: 15px;
+}
+.aboutimgdesc p{
+	
+	width: 250px;
+	
+	color: #000000a8;
+}
+.priceplanesinglebox {
+    width: 316px;
+    background: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+    box-shadow: 2px 2px 11px 2px #00000017;
+    margin-bottom: 10px;
+}
+.priceplanesinglebox:last-child{
+	    float: right;
+    margin-right: 20px;
+}
+
+.mainpriceplane {
+    overflow: hidden;
+    background: #00000008;
+}
+.priceplanesinglebox h3 {
+    margin-left: -4px;
+    font-size: 30px;
+    margin-top: -6px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+
+.priceplanesinglebox h2 {
+    font-size: 45px;
+    margin-left: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.priceplanesinglebox ul li {
+	margin-left: 15px;
+	list-style: none;
+	line-height: 30px;
+	font-weight: 400;
+}
+i.fas.fa-check {
+    margin-right: 9px;
+    color: orange;
+    fot-weight: 100;
+}
+#priceplanebtn{
+	
+	width: 200px;
+	
+	padding: 10px;
+	
+	font-size: 20px;
+	
+	border: none;
+	
+	cursor: pointer;
+	
+	font-weight: 500px;
+	border-radius: 3px;
+	background: #ff7600;
+	
+	color: white;
+	
+	font-weight: bolder;
+	
+	margin-top: 25px;
+	
+	margin-bottom: 25px;
+	
+	margin-left: 15px;
+}
+section#priceplane {
+    height: 850px;
+}
+#miter{
+	font-size: 23px;
+    font-weight: 500;
+}
+#ideasection{
+	
+
+height: 470px;
+   position: absolute;
+}
+
+.ideasectionmaindiv{
+	
+width: 1350px;
+	
+position: absolute;
+	
+position: relative;
+}
+.ideasectionimage{
+	
+background: url(image/s02.jpg);
+	
+background-repeat: no-repeat;
+	
+background-size:cover;
+	
+width:50%;
+	
+float: left;
+	
+position: relatve;
+	
+position: absolute;
+	
+width: 50%;
+	
+height: 465px;
+}
+.ideasectioncontent {
+    overflow: hidden;
+    width: 50%;
+    float: right;
+	background:#222222;
+	color: white;
+}
+
+.ideacontent h2{
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+p#paudes {
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 40px;
+	margi-bottom: 25px;
+}
+
+i.fab.fa-apple {
+    font-size: 40px;
+    float: left;
+	margin-right: 20px;
+    color: #FF5200;
+	margin-top: 20px;
+}
+.singleideacontenticon{
+	margin-top: 15px;
+	margin-left: 40px;
+	width: 245px;
+	float: left;
+	margin-bottom: 28px;
+}
+
+.cotenttext h3 {
+    font-size: 20px;
+    margin-bottom: 11px;
+	margin-top: 20px;
+	transition: 0.3s;
+}
+.cotenttext h3:hover {
+    color: #FF5200;
+}
+.cotenttext p {
+    margin-left: 45px;
+	
+    line-height: 23px;
+
+}
+#meetourteamsection{
+	
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
